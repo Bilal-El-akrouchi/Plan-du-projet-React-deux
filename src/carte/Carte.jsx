@@ -1,6 +1,6 @@
 import './Carte.css'
 export default Carte
-function Carte({nom, prix, stock}){
+function Carte({nom, prix, stock, ajouter}){
 return(
 <>
 <div className='flex gap-2.5 justify-around'>
@@ -16,7 +16,7 @@ return(
                 stock:{stock}
         </div> 
     </div>
-        <button className='bg-fuchsia-300 w-full'>ajouter</button>
+        <button className='bg-fuchsia-300 w-full' onClick={(ajouter)} >ajouter</button>
     </div>
 </div>
 
