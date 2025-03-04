@@ -1,0 +1,13 @@
+[
+    {"nom":"produit2", "prix":10, "stock": 10 },
+    {"nom":"produit1", "prix":20, "stock": 10 },
+    {"nom":"produit3", "prix":30, "stock": 10 },
+    {"nom":"produit4", "prix":40, "stock": 10 },
+    {"nom":"produit5", "prix":50, "stock": 10 },
+    {"nom":"produit6", "prix":60, "stock": 10 },
+    {"nom":"produit7", "prix":70, "stock": 10 },
+    {"nom":"produit8", "prix":80, "stock": 10 },
+    {"nom":"produit9", "prix":90, "stock": 10 },
+    {"nom":"produit10", "prix":100, "stock": 10 }
+    
+    ]
