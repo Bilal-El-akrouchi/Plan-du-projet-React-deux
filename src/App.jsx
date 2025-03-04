@@ -4,24 +4,26 @@ import Carte from './carte/Carte'
 import data from './data/data.json'
 
 function App() {
-  const [stock, setStock] = useState(0)
-  const ajouter=()=>{
-    setStock (stock+1)
-    console.log('ff');
-    
+  const [panier, setPanier] = useState(0)
+  const [produits, setProduits] = useState(data)
+
+  const ajouter = (index) => {
+    setPanier(prev => prev + 1)
+    const updateProduits = [...produits]
+    if (updateProduits[index].stock > 0) {
+      updateProduits[index].stock -= 1
+      setProduits(updateProduits)
+    }
   }
 
   return (
-    // LES CARTES BOUCLE
     <div>
-      {stock === 0 ? (
-        data.map((datas, index) => (
-          <Carte key={index} nom={datas.nom} prix={datas.prix} stock={datas.stock} ajouter={ajouter} />
-        ))
-      ) : null}
+      <Carte produits={produits} ajouter={ajouter} />
+      {panier === 0 ? null : (
+        <div>Panier (ajouter des produits ici)</div>
+      )}
     </div>
   )
 }
-    // Fin Des Cartes
 
 export default App
