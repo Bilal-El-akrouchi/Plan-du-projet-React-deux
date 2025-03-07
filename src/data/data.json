@@ -1,13 +1,14 @@
 [
-    {"nom":"produit2", "prix":10, "stock": 10 },
-    {"nom":"produit1", "prix":20, "stock": 10 },
-    {"nom":"produit3", "prix":30, "stock": 10 },
-    {"nom":"produit4", "prix":40, "stock": 10 },
-    {"nom":"produit5", "prix":50, "stock": 10 },
-    {"nom":"produit6", "prix":60, "stock": 10 },
-    {"nom":"produit7", "prix":70, "stock": 10 },
-    {"nom":"produit8", "prix":80, "stock": 10 },
-    {"nom":"produit9", "prix":90, "stock": 10 },
-    {"nom":"produit10", "prix":100, "stock": 10 }
+    {"nom":"ourse blanc (peau)", "prix":10, "stock": 10, "image":"https://cdn.futura-sciences.com/sources/images/diaporama/1238-juveniles/album-faune-juvenile3.jpg" },
+    {"nom":"écureuil drole", "prix":1000, "stock": 10, "image":"https://static.nationalgeographic.fr/files/styles/image_3200/public/comedy-wildlife-awards-squirel-stop.adapt_.1190.1.jpg?w=1900&h=1417" },
+    {"nom":"puff pour l'asthme", "prix":30, "stock": 10, "image" : "https://www.qu4tre.be/sites/default/files/2023-10/1562156172124_asthma-inhaler_img.jpg"},
+    {"nom":"corne de rhino", "prix":40, "stock": 10, "image": "https://images.lanouvellerepublique.fr/image/upload/t_1020w/f_auto/58c8253d479a4550018b460f"},
+    {"nom":"tete de chargeur de contrefacon", "prix":50, "stock": 10, "image": "https://m.media-amazon.com/images/I/511cXObePwL.jpg" },
+    {"nom":"pavé de rue (stock limité)", "prix":60, "stock": 10, "image":"https://globalstone.be/wp-content/uploads/2020/12/Porphyre-carre-bombe-Global-Stone.jpg" },
+    {"nom":"chouchou(train) d'atérissage", "prix":70, "stock": 10, "image":"https://pbs.twimg.com/media/FwHZZs5XsAEk8EO.jpg"},
+    {"nom":"terre", "prix":80, "stock": 10, "image":"https://media.istockphoto.com/id/1084742460/fr/photo/terre-plate.jpg?s=612x612&w=0&k=20&c=fuYNgPcYMvZkLVKcOs0DIXUm8LfQdr-tLDQdWrwa13o=" },
+    {"nom":"billet de 20 (vrais)", "prix":90, "stock": 10,"image":"https://ds.static.rtbf.be/article/image/1920xAuto/1/a/4/184dc23b093cd86812be05b057636f69-1448373068.jpg" },
+    {"nom":"steve jobs", "prix":100, "stock": 10 , "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Steve_Jobs_Headshot_2010-CROP2.jpg/390px-Steve_Jobs_Headshot_2010-CROP2.jpg"},
+    {"nom":"la moustache d'hitler(originale)", "prix":100, "stock": 10 , "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX3S4uTVloFqcqBJ9FpMpjlckcsvVB0RQOR1mEas6mwQjKE3RzDP2T4fLJUm7yXd5rzgY&usqp=CAU"}
     
     ]
